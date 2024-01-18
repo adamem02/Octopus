@@ -1,0 +1,33 @@
+{
+    "type": "module",
+    "name": "svg-logo-maker",
+    "version": "1.0.0",
+    "description": "Command-line application to generate SVG logos",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adamem02/Octopus"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/adamem02/Octopus/issues"
+    },
+    "homepage": "https://github.com/adamem02/Octopus",
+    "dependencies": {
+        "abab": "*",
+        "domexception": "^2.0.1",
+        "inquirer": "^8.2.4",
+        "w3c-hr-time": "^1.0.2"
+    },
+    "devDependencies": {
+        "jest": "^27.0.6"
+    },
+    "jest": {
+        "testEnvironment": "node"
+    }
+}
