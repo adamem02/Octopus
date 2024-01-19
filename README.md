@@ -29,3 +29,5 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ## Mock-Up Video
 ![SVG video copy](https://github.com/adamem02/Octopus/assets/127553741/3240fc3b-e889-4b41-9420-021e166d62c7)
 
+# Link to video below
+https://drive.google.com/file/d/1mIWb-qUOqvRCjes6iIJRyS-gDxuAiIFR/view?usp=sharing
