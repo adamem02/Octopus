@@ -62,13 +62,21 @@ async function runApplication() {
     // Specify the file path for the logo.svg file inside the Examples folder
     const logoFilePath = path.join(examplesFolderPath, 'logo.svg');
 
+    // Logging file paths
+    console.log('Examples Folder Path:', examplesFolderPath);
+    console.log('Logo File Path:', logoFilePath);
+
     // Write SVG content to the logo.svg file
     fs.writeFileSync(logoFilePath, svgContent);
+
+    // After generating SVG content
+    console.log('Generated SVG Content:', svgContent);
 
     console.log(`Generated logo.svg in the Examples folder`);
   } catch (error) {
     console.error('Error:', error.message);
   }
 }
+
 // Run the application
 runApplication();
